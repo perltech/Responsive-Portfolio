@@ -1,0 +1,44 @@
+.portfolio-container {
+	margin-left: 15px;
+	max-height: 100%;
+}
+
+.portfolio-container img {
+	height: 150px;
+	width: 150px;
+	position: relative;
+}
+
+.portfolio-container div {
+	margin-top: 100px;
+	margin-left: 10px;
+	height: 50px;
+	width: 150px;
+	background: #4aaaa5;
+	line-height: 50px;
+	text-align: center;
+	color: #fff;
+	z-index: 1;
+	position: absolute;
+	display: inline-block;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+
+@media (max-width: 768px) {
+	.portfolio-container div {
+		display: initial;
+	}
+
+	#homerrow {
+		display: table-row;
+	}
+
+}
+
+@media (max-width: 640px) {
+	.portfolio-container div {
+		display: table;
+	}
+
+}
